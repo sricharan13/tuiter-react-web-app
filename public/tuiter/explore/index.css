@@ -1,38 +1,34 @@
 @import "../styles.css";
 
-.wd-bg-dark-gray {
-    background-color: darkgray;
+.wd-post {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding: 12px;
+    border-color: rgb(222, 226, 230);
+    display: flex;
+    justify-content: space-between;
 }
-.wd-fg-color-white {
-    color: white;
-}
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-}
-.wd-border-none {
-    border: none;
-}
-::placeholder {
-    color:  rgb(110, 118, 125);
-}
-.wd-fg-color-rgb-110-118-125 {
+.wd-post-topic {
+    font-size: 13px;
     color: rgb(110, 118, 125);
 }
-.wd-width-90-percent {
-    width: 90%;
+.wd-post-author-name {
+    font-size: 13px;
+    font-weight: bold;
 }
-.wd-border-radius-25px {
-    border-radius: 25px;
+.wd-post-time {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(110, 118, 125);
 }
-.wd-font-size-40px {
-    font-size: 40px;
+.wd-post-tuit-count {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
 }
-.wd-bg-color-rgb-47-51-54 {
-    background-color: rgb(47, 51, 54);
-}
-.wd-padding-16px {
-    padding: 16px;
-}
-.wd-border-bottom-29-161-242 {
-    border-bottom: rgb(29, 160, 242);
+.wd-post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
 }
