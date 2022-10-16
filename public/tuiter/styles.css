@@ -18,3 +18,35 @@
 .wd-padding-left-10px {
     padding-left: 10px;
 }
+
+.wd-post {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-post-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-post-author-name {
+    font-size: 13px;
+    font-weight: bold;
+}
+.wd-post-time {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(110, 118, 125);
+}
+.wd-post-tuit-count {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.wd-post-title {
+    font-size: 13px;
+    font-weight: bold;
+}
