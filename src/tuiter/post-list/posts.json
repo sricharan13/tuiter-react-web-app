@@ -1,0 +1,14 @@
+[
+  {
+    "_id": 123,
+    "name": "SpaceX",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "Dennis and Akiko Tito are the first wo crewmembers on Starship's second commercial spaceflight around the moon",
+    "image": "occupy-mars.jpeg",
+    "comments": "595",
+    "retweets": "1,168",
+    "likes": "11.1K",
+    "profilePic": "spacex.jpeg"
+  }
+]
