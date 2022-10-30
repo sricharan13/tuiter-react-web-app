@@ -28,9 +28,8 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="../../images/space-x-starship.webp" className="w-100"/>
-                <h1 className="position-absolute wd-nudge-up text-white">
-                    SpaceX Starship</h1>
+                <img src="/images/space-x-starship.webp" className="w-100"/>
+                <h1 className="position-absolute wd-nudge-up text-white">SpaceX Starship</h1>
             </div>
             <PostSummaryList/>
         </>

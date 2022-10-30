@@ -12,6 +12,7 @@ function App() {
               <Routes>
                   <Route index element={<Labs/>}/>
                   <Route path="/hello" element={<HelloWorld/>}/>
+                  <Route path="/*" element={<Labs/>}/>
                   <Route path="/tuiter/*" element={<Tuiter/>}/>
               </Routes>
           </div>
