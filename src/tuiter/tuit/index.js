@@ -7,7 +7,6 @@ const TuitList = () => {
     const {tuits, loading} = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(() => {dispatch(findTuitsThunk())}, [])
-
     return(
         <div>
             {

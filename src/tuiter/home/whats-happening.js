@@ -13,6 +13,9 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "topic": "",
+    "tuit": "",
+    "title": ""
 }
 
 const WhatsHappening = () => {

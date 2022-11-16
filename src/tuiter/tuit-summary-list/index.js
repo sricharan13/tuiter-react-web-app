@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import PostSummaryItem from "./post-summary-item.js";
+import TuitSummaryItem from "./tuit-summary-item.js";
 import {findTuitsThunk} from "../../services/tuits-thunks";
 
 const PostSummaryList = () => {
@@ -11,7 +11,7 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group">
             {
-                tuits.map(post => <PostSummaryItem key={post._id} post={post}/>)
+                tuits.map(post => <TuitSummaryItem key={post._id} post={post}/>)
             }
         </ul>
     );
